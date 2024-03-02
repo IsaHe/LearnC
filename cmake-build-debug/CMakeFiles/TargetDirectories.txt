@@ -1,0 +1,5 @@
+C:/Users/PC/CLionProjects/Learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/CLionProjects/Learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PC/CLionProjects/Learning/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir
+C:/Users/PC/CLionProjects/Learning/SquaresOfSortedArray/Output/CMakeFiles/edit_cache.dir
+C:/Users/PC/CLionProjects/Learning/SquaresOfSortedArray/Output/CMakeFiles/rebuild_cache.dir
