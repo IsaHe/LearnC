@@ -3,8 +3,16 @@
 #include <stdio.h>
 
 void sortArray(int * arr, int len) {
+    int holder;
+
     for (int i = 0; i < len-1; ++i) {
-        arr[i] = (arr[i+1] > arr[i]) ? arr[i+1] : arr[i];
+        for (int j = i + 1; j < len - i; ++j) {
+            holder = arr[j];
+            if (arr[i] > holder) {
+                arr[j] = arr[i];
+                arr[i] = holder;
+            }
+        }
     }
 }
 
@@ -25,7 +33,7 @@ int * squareArray(int *arr, int len) {
 int main() {
 
     int arr[] = {-4, -1, 0, 3, 10};
-    int *sqred = squareArray(arr, 5);
+    int *sqred = squareArray(arr, 5); // {16, 1, 0, 9, 100}
 
     for (int i = 0; i < 5; ++i) {
         printf("%d, ", sqred[i]);
