@@ -75,18 +75,36 @@ CMAKE_BINARY_DIR = /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/clean
 
 #=============================================================================
+# Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output
+
+# Recursive "all" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/all: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/all
+
+# Recursive "preinstall" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall:
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall
+
+# Recursive "clean" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/clean
+
+#=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/all
+all: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/preinstall
+preinstall: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/clean
+clean: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,6 +132,32 @@ SquaresOfSortedArray: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedAr
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/clean
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/clean
+
+#=============================================================================
+# Target rules for target /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir
+
+# All Build rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/depend
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target TwoSums"
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
+
+# Build rule for subdir invocation for target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule
+
+# Convenience name for target.
+TwoSums: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule
+.PHONY : TwoSums
+
+# clean rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

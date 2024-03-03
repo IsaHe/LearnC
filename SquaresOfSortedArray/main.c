@@ -2,15 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void sortArray(int * arr, int len) {
-    int holder;
-
-    for (int i = 0; i < len-1; ++i) {
-        for (int j = i + 1; j < len - i; ++j) {
-            holder = arr[j];
-            if (arr[i] > holder) {
-                arr[j] = arr[i];
-                arr[i] = holder;
+void sortArray(int *arr, int len) {
+    for (int i = 0; i < len; ++i) {
+        for (int j = i + 1; j < len; ++j) {
+            if (arr[i] > arr[j]) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
     }

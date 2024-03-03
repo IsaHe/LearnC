@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -32,6 +33,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output",
+					"jsonFile" : "directory-TwoSums-Debug-27797cd8a2f9b280c45a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TwoSums",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -41,12 +57,14 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "Learning",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -57,6 +75,13 @@
 					"id" : "SquaresOfSortedArray::@b4316e4a5af2b2912647",
 					"jsonFile" : "target-SquaresOfSortedArray-Debug-3d321fe5befcfbe6b986.json",
 					"name" : "SquaresOfSortedArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TwoSums::@d12c9d09814ec7e4ba15",
+					"jsonFile" : "target-TwoSums-Debug-2a573412a898f9c1c91d.json",
+					"name" : "TwoSums",
 					"projectIndex" : 0
 				}
 			]

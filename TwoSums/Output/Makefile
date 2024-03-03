@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output//CMakeFiles/progress.marks
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named SquaresOfSortedArray
+# Convenience name for target.
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule
 
-# Build rule for target.
-SquaresOfSortedArray: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SquaresOfSortedArray
-.PHONY : SquaresOfSortedArray
-
-# fast build rule for target.
-SquaresOfSortedArray/fast:
-	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build
-.PHONY : SquaresOfSortedArray/fast
-
-#=============================================================================
-# Target rules for targets named TwoSums
-
-# Build rule for target.
-TwoSums: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TwoSums
+# Convenience name for target.
+TwoSums: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/rule
 .PHONY : TwoSums
 
 # fast build rule for target.
 TwoSums/fast:
-	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
 .PHONY : TwoSums/fast
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SquaresOfSortedArray"
 	@echo "... TwoSums"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

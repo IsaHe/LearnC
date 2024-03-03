@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output"
 		},
 		{
 			"name" : "Learning_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums"
 		},
 		{
 			"name" : "ProcessorCount_cmd_sysctl",

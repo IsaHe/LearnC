@@ -3,3 +3,6 @@
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/edit_cache.dir
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/rebuild_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/edit_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/rebuild_cache.dir
