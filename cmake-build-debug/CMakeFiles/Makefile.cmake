@@ -27,6 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/ProcessorCount.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/CMakeLists.txt"
@@ -45,10 +46,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/DependInfo.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMakeFiles/AddTwoNumbers.dir/DependInfo.cmake"
   )

@@ -6,3 +6,6 @@
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/edit_cache.dir
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/rebuild_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMakeFiles/AddTwoNumbers.dir
+/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMakeFiles/edit_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMakeFiles/rebuild_cache.dir
