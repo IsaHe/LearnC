@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output",
+					"jsonFile" : "directory-SquaresOfSortedArray-Debug-a78dac5b7987c8209605.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SquaresOfSortedArray",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output",
+					"jsonFile" : "directory-TwoSums-Debug-27797cd8a2f9b280c45a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TwoSums",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output",
+					"jsonFile" : "directory-AddTwoNumbers-Debug-0f02db769d73020fb48a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AddTwoNumbers",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "Learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "AddTwoNumbers::@84baf256b1e390bc7c03",
+					"jsonFile" : "target-AddTwoNumbers-Debug-74d439f5d267344b94d3.json",
+					"name" : "AddTwoNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SquaresOfSortedArray::@b4316e4a5af2b2912647",
+					"jsonFile" : "target-SquaresOfSortedArray-Debug-3d321fe5befcfbe6b986.json",
+					"name" : "SquaresOfSortedArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TwoSums::@d12c9d09814ec7e4ba15",
+					"jsonFile" : "target-TwoSums-Debug-2a573412a898f9c1c91d.json",
+					"name" : "TwoSums",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug",
+		"source" : "/Users/isaacherbozo/CLionProjects/LearnC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
