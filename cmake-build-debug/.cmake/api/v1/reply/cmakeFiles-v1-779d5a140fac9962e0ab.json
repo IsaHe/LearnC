@@ -125,6 +125,12 @@
 		},
 		{
 			"path" : "AddTwoNumbers/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio16/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio13/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
