@@ -12,7 +12,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -34,7 +36,7 @@
 					"source" : "SquaresOfSortedArray",
 					"targetIndexes" : 
 					[
-						3
+						5
 					]
 				},
 				{
@@ -49,7 +51,7 @@
 					"source" : "TwoSums",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -79,7 +81,7 @@
 					"source" : "Ejercicio16",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -96,6 +98,36 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output",
+					"jsonFile" : "directory-Ejercicio17-Debug-d254bc690d8bceb25074.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio17",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output",
+					"jsonFile" : "directory-Ejercicio14-Debug-215cf352d9cf07fca337.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio14",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -109,7 +141,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					],
 					"name" : "Learning",
 					"targetIndexes" : 
@@ -118,7 +152,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -139,10 +175,24 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 7,
+					"id" : "Ejercicio14::@6a0d8cda7e5409bfc6b0",
+					"jsonFile" : "target-Ejercicio14-Debug-b8caab96049186edcec1.json",
+					"name" : "Ejercicio14",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "Ejercicio16::@2ae8b791c4a1c9989ae5",
 					"jsonFile" : "target-Ejercicio16-Debug-c244e70808a572d83409.json",
 					"name" : "Ejercicio16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Ejercicio17::@488b4ac6aeb3dffe9cdc",
+					"jsonFile" : "target-Ejercicio17-Debug-e2af5b7df63306551f16.json",
+					"name" : "Ejercicio17",
 					"projectIndex" : 0
 				},
 				{

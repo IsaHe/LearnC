@@ -131,6 +131,12 @@
 		},
 		{
 			"path" : "Ejercicio13/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio17/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio14/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

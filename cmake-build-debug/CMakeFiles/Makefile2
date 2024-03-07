@@ -90,6 +90,21 @@ CMAKE_BINARY_DIR = /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/clean
 
 #=============================================================================
+# Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output
+
+# Recursive "all" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/all
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/all
+
+# Recursive "preinstall" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/preinstall:
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/preinstall
+
+# Recursive "clean" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/clean
+
+#=============================================================================
 # Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output
 
 # Recursive "all" directory target.
@@ -103,6 +118,21 @@ CMAKE_BINARY_DIR = /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug
 # Recursive "clean" directory target.
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/clean
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/clean
+
+#=============================================================================
+# Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output
+
+# Recursive "all" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/all
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/all
+
+# Recursive "preinstall" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/preinstall:
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/preinstall
+
+# Recursive "clean" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/clean
 
 #=============================================================================
 # Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output
@@ -143,6 +173,8 @@ all: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/all
+all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/all
+all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -151,6 +183,8 @@ preinstall: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/preinstall
+preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/preinstall
+preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -159,6 +193,8 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/clean
+clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/clean
+clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -168,7 +204,7 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/clean
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target SquaresOfSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target SquaresOfSortedArray"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +230,7 @@ SquaresOfSortedArray: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedAr
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target TwoSums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target TwoSums"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +282,7 @@ AddTwoNumbers: /Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/CMa
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target Ejercicio16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target Ejercicio16"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/CMakeFiles/Ejercicio16.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,6 +326,58 @@ Ejercicio13: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFi
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/clean
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/clean
+
+#=============================================================================
+# Target rules for target /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir
+
+# All Build rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/all:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/depend
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target Ejercicio17"
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/all
+
+# Build rule for subdir invocation for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/rule
+
+# Convenience name for target.
+Ejercicio17: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/rule
+.PHONY : Ejercicio17
+
+# clean rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/clean
+
+#=============================================================================
+# Target rules for target /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir
+
+# All Build rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/all:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/depend
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target Ejercicio14"
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/all
+
+# Build rule for subdir invocation for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/rule
+
+# Convenience name for target.
+Ejercicio14: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/rule
+.PHONY : Ejercicio14
+
+# clean rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

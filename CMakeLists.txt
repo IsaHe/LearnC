@@ -8,3 +8,5 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/TwoSums" "${PROJECT_SOURCE_DIR}/TwoSums/
 add_subdirectory("${PROJECT_SOURCE_DIR}/AddTwoNumbers" "${PROJECT_SOURCE_DIR}/AddTwoNumbers/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio16" "${PROJECT_SOURCE_DIR}/Ejercicio16/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio13" "${PROJECT_SOURCE_DIR}/Ejercicio13/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio17" "${PROJECT_SOURCE_DIR}/Ejercicio17/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio14" "${PROJECT_SOURCE_DIR}/Ejercicio14/Output")

@@ -15,3 +15,9 @@
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/edit_cache.dir
 /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/rebuild_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/edit_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/rebuild_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/edit_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/rebuild_cache.dir

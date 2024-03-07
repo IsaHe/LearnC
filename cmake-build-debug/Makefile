@@ -181,6 +181,32 @@ Ejercicio13/fast:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/build
 .PHONY : Ejercicio13/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio17
+
+# Build rule for target.
+Ejercicio17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ejercicio17
+.PHONY : Ejercicio17
+
+# fast build rule for target.
+Ejercicio17/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/build
+.PHONY : Ejercicio17/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio14
+
+# Build rule for target.
+Ejercicio14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ejercicio14
+.PHONY : Ejercicio14
+
+# fast build rule for target.
+Ejercicio14/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build
+.PHONY : Ejercicio14/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -191,7 +217,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AddTwoNumbers"
 	@echo "... Ejercicio13"
+	@echo "... Ejercicio14"
 	@echo "... Ejercicio16"
+	@echo "... Ejercicio17"
 	@echo "... SquaresOfSortedArray"
 	@echo "... TwoSums"
 .PHONY : help
