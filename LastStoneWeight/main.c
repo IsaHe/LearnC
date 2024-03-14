@@ -1,64 +1,71 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int* getTwoHeviest(int* stones, int stonesSize) {
-    int* twoHeaviest = (int*) malloc(2 * sizeof(int));
-    twoHeaviest [0] = twoHeaviest[1] = 0;
+void getTwoHeviest(int* stones, int stonesSize, int *heviest0, int *heviest1) {
+    *heviest0 = stones[0];
+    *heviest1 = stones[1];
 
     for (int i = 0; i < stonesSize; ++i) {
-        if (stones[i] >  stones[twoHeaviest[0]]) {
-            twoHeaviest[1] = twoHeaviest[0];
-            twoHeaviest[0] = i;
-        } else if (stones[i] > stones[twoHeaviest[1]]) {
-            twoHeaviest[1] = i;
+        if (stones[i] > stones[*heviest0]) {
+            *heviest1 = *heviest0;
+            *heviest0 = i;
+        } else if (stones[i] > stones[*heviest1]) {
+            *heviest1 = i;
         }
     }
-
-    return twoHeaviest;
 }
 
-int* destroyStones(int* stones, int stonesSize) {
-    int* maxStonesIndex = getTwoHeviest(stones, stonesSize);
-    int* result = (int*) malloc(stonesSize - 3 * sizeof(int));
+int* destroyStones(const int* stones, int *stonesSize, int heviest0, int heviest1) {
+    *stonesSize -= 1;
+    int* newStones = malloc(sizeof(int) * (*stonesSize));
     int j = 0;
-    for (int i = 0; i < stonesSize; ++i) {
-        if (i != maxStonesIndex[0] && i != maxStonesIndex[1]) {
-            result[j] = stones[i];
+    for (int i = 0; i <= *stonesSize; ++i) {
+        if (i != heviest1 && i != heviest0) newStones[j] = stones[i]; j++;
+    }
+    return newStones;
+}
+
+int* clashStones(const int* stones, int *stonesSize, int heviest0, int heviest1) {
+    *stonesSize -= 1;
+    int* newStones = malloc(sizeof(int) * (*stonesSize));
+    int j = 0;
+    for (int i = 0; i <= *stonesSize; i++) {
+        if (i != heviest1) {
+            newStones[j] = (i != heviest0) ? stones[i] : stones[heviest0] - stones[heviest1];
             j++;
         }
     }
-    return result;
+    return newStones;
 }
 
-int* clashStones(int* stones, int stonesSize) {
-    int* maxStonesIndex = getTwoHeviest(stones, stonesSize);
-    int result = stones[maxStonesIndex[0]] - stones[maxStonesIndex[1]];
-    int* resultArray = (int*) malloc(stonesSize - 2 * sizeof(int));
-    int j = 0;
-    for (int i = 0; i < stonesSize; ++i) {
-        if (i != maxStonesIndex[0]) {
-            if (i == maxStonesIndex[1]) {
-                resultArray[j] = result;
-            }
-            resultArray[j] = stones[i];
-            j++;
-        }
-    }
+int* vsStones(int* stones, int *stonesSize) {
+    int heviest0, heviest1;
+    getTwoHeviest(stones, *stonesSize, &heviest0, &heviest1);
+    if(heviest1 == heviest0) return destroyStones(stones, stonesSize, heviest0, heviest1);
+    return clashStones(stones, stonesSize, heviest0, heviest1);
+}
 
-    return resultArray;
+void printStoneArray(int* stones, int stonesSize) {
+    for (int i = 0; i < stonesSize; ++i) {
+        printf("%d; ", stones[i]);
+    }
+    printf("\b\b\n");
 }
 
 int lastStoneWeight(int* stones, int stonesSize) {
     while (stonesSize > 1) {
-        stones = clashStones(stones, stonesSize);
-        stonesSize--;
+        printStoneArray(stones, stonesSize);
+        stones = vsStones(stones, &stonesSize);
     }
+
     return stones[0];
 }
 
 
 int main() {
     int stones[6] = {2, 7, 4, 1, 8, 1};
-
-    printf("Resultado: %d\n", lastStoneWeight(stones, 6));
+    int stoneSize = 6;
+    int lastWeight = lastStoneWeight(stones, stoneSize);
+    printf("%d", lastWeight);
+    return 0;
 }
