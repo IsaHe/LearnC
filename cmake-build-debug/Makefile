@@ -207,6 +207,71 @@ Ejercicio14/fast:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/build
 .PHONY : Ejercicio14/fast
 
+#=============================================================================
+# Target rules for targets named LibroCh1
+
+# Build rule for target.
+LibroCh1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LibroCh1
+.PHONY : LibroCh1
+
+# fast build rule for target.
+LibroCh1/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/CMakeFiles/LibroCh1.dir/build
+.PHONY : LibroCh1/fast
+
+#=============================================================================
+# Target rules for targets named LongestSubstringWoutRepChar
+
+# Build rule for target.
+LongestSubstringWoutRepChar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LongestSubstringWoutRepChar
+.PHONY : LongestSubstringWoutRepChar
+
+# fast build rule for target.
+LongestSubstringWoutRepChar/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/build
+.PHONY : LongestSubstringWoutRepChar/fast
+
+#=============================================================================
+# Target rules for targets named LastStoneWeight
+
+# Build rule for target.
+LastStoneWeight: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LastStoneWeight
+.PHONY : LastStoneWeight
+
+# fast build rule for target.
+LastStoneWeight/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/build
+.PHONY : LastStoneWeight/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio19
+
+# Build rule for target.
+Ejercicio19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ejercicio19
+.PHONY : Ejercicio19
+
+# fast build rule for target.
+Ejercicio19/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/Ejercicio19.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/Ejercicio19.dir/build
+.PHONY : Ejercicio19/fast
+
+#=============================================================================
+# Target rules for targets named Ejercicio20
+
+# Build rule for target.
+Ejercicio20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ejercicio20
+.PHONY : Ejercicio20
+
+# fast build rule for target.
+Ejercicio20/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/Ejercicio20.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/Ejercicio20.dir/build
+.PHONY : Ejercicio20/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,6 +285,11 @@ help:
 	@echo "... Ejercicio14"
 	@echo "... Ejercicio16"
 	@echo "... Ejercicio17"
+	@echo "... Ejercicio19"
+	@echo "... Ejercicio20"
+	@echo "... LastStoneWeight"
+	@echo "... LibroCh1"
+	@echo "... LongestSubstringWoutRepChar"
 	@echo "... SquaresOfSortedArray"
 	@echo "... TwoSums"
 .PHONY : help

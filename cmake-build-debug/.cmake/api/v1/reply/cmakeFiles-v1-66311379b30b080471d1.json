@@ -137,6 +137,21 @@
 		},
 		{
 			"path" : "Ejercicio14/CMakeLists.txt"
+		},
+		{
+			"path" : "LibroCh1/CMakeLists.txt"
+		},
+		{
+			"path" : "LongestSubstringWoutRepChar/CMakeLists.txt"
+		},
+		{
+			"path" : "LastStoneWeight/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio19/CMakeLists.txt"
+		},
+		{
+			"path" : "Ejercicio20/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

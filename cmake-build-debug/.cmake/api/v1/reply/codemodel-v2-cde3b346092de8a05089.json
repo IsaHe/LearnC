@@ -14,7 +14,12 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -36,7 +41,7 @@
 					"source" : "SquaresOfSortedArray",
 					"targetIndexes" : 
 					[
-						5
+						10
 					]
 				},
 				{
@@ -51,7 +56,7 @@
 					"source" : "TwoSums",
 					"targetIndexes" : 
 					[
-						6
+						11
 					]
 				},
 				{
@@ -128,6 +133,81 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output",
+					"jsonFile" : "directory-LibroCh1-Debug-340424db830a6bad8d08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LibroCh1",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output",
+					"jsonFile" : "directory-LongestSubstringWoutRepChar-Debug-0d4ba4375e7bd50517c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LongestSubstringWoutRepChar",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output",
+					"jsonFile" : "directory-LastStoneWeight-Debug-39093a277cce50c6b407.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LastStoneWeight",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output",
+					"jsonFile" : "directory-Ejercicio19-Debug-3f815c1c5f6c2b5e536e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio19",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output",
+					"jsonFile" : "directory-Ejercicio20-Debug-5d1be14195090672f0bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio20",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Debug",
@@ -143,7 +223,12 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					],
 					"name" : "Learning",
 					"targetIndexes" : 
@@ -154,7 +239,12 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -193,6 +283,41 @@
 					"id" : "Ejercicio17::@488b4ac6aeb3dffe9cdc",
 					"jsonFile" : "target-Ejercicio17-Debug-e2af5b7df63306551f16.json",
 					"name" : "Ejercicio17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Ejercicio19::@092c34fd97b9415d373c",
+					"jsonFile" : "target-Ejercicio19-Debug-730f810acfd6e62dfbcd.json",
+					"name" : "Ejercicio19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Ejercicio20::@725e37e892912be40664",
+					"jsonFile" : "target-Ejercicio20-Debug-76fd4b468248fc511b37.json",
+					"name" : "Ejercicio20",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "LastStoneWeight::@4d270bac01a018688ddd",
+					"jsonFile" : "target-LastStoneWeight-Debug-bc5ea5120fdcbd84e9d9.json",
+					"name" : "LastStoneWeight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "LibroCh1::@d890e767949c8f3ba3a9",
+					"jsonFile" : "target-LibroCh1-Debug-74c1e05b634fe90fdc1a.json",
+					"name" : "LibroCh1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "LongestSubstringWoutRepChar::@f765cf832673561050ec",
+					"jsonFile" : "target-LongestSubstringWoutRepChar-Debug-82ae5975f6444d60fc05.json",
+					"name" : "LongestSubstringWoutRepChar",
 					"projectIndex" : 0
 				},
 				{

@@ -207,13 +207,13 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Learning_BINARY_DIR:STATIC=/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output
+Learning_BINARY_DIR:STATIC=/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output
 
 //Value Computed by CMake
 Learning_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Learning_SOURCE_DIR:STATIC=/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14
+Learning_SOURCE_DIR:STATIC=/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
@@ -305,7 +305,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

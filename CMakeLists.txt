@@ -10,3 +10,8 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio16" "${PROJECT_SOURCE_DIR}/Ejer
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio13" "${PROJECT_SOURCE_DIR}/Ejercicio13/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio17" "${PROJECT_SOURCE_DIR}/Ejercicio17/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio14" "${PROJECT_SOURCE_DIR}/Ejercicio14/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/LibroCh1" "${PROJECT_SOURCE_DIR}/LibroCh1/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/LongestSubstringWoutRepChar" "${PROJECT_SOURCE_DIR}/LongestSubstringWoutRepChar/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/LastStoneWeight" "${PROJECT_SOURCE_DIR}/LastStoneWeight/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio19" "${PROJECT_SOURCE_DIR}/Ejercicio19/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio20" "${PROJECT_SOURCE_DIR}/Ejercicio20/Output")

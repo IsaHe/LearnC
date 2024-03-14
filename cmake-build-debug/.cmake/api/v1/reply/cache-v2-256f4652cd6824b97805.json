@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8"
+			"value" : "13"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output"
 		},
 		{
 			"name" : "Learning_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20"
 		},
 		{
 			"name" : "ProcessorCount_cmd_sysctl",

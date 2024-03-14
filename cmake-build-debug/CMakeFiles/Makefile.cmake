@@ -33,6 +33,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/CMakeLists.txt"
   "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
@@ -55,6 +60,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -66,4 +76,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/CMakeFiles/Ejercicio13.dir/DependInfo.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/CMakeFiles/Ejercicio17.dir/DependInfo.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFiles/Ejercicio14.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/CMakeFiles/LibroCh1.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/Ejercicio19.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/Ejercicio20.dir/DependInfo.cmake"
   )

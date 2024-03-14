@@ -72,6 +72,31 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
