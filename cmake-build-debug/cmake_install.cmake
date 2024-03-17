@@ -74,7 +74,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/LibroCh1/Output/cmake_install.cmake")
+  include("/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -95,6 +95,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
