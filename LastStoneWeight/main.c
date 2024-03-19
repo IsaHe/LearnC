@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
 
 void getTwoHeviest(int* stones, int stonesSize, int *heviest0, int *heviest1) {
     *heviest0 = 0;
@@ -135,9 +136,18 @@ int lastStoneWeightBetterMine(int* stones, int stonesSize) {
 
 
 int main() {
+    clock_t start, end;
+    double cpu_time_used;
+    start = clock();
+
     int stones[2] = {3, 1};
     int stoneSize = 2;
     int lastWeight = lastStoneWeightBetterMine(stones, stoneSize);
-    printf("%d", lastWeight);
+    printf("%d\n", lastWeight);
+
+    end = clock();
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf("El tiempo de ejecución fue %f segundos\n", cpu_time_used);
+
     return 0;
 }

@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/CMakeLists.txt"
+  "/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/Libro/CMakeLists.txt"
   "/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/CMakeLists.txt"
@@ -67,6 +68,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -84,4 +86,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/CMakeFiles/Ejercicio19.dir/DependInfo.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFiles/Ejercicio20.dir/DependInfo.cmake"
   "/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/DependInfo.cmake"
+  "/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/DependInfo.cmake"
   )

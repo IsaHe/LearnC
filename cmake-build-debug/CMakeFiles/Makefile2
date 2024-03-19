@@ -165,6 +165,21 @@ CMAKE_BINARY_DIR = /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/clean
 
 #=============================================================================
+# Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output
+
+# Recursive "all" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/all: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/all
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/all
+
+# Recursive "preinstall" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/preinstall:
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/preinstall
+
+# Recursive "clean" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/clean
+
+#=============================================================================
 # Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output
 
 # Recursive "all" directory target.
@@ -271,6 +286,7 @@ all: /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/all
+all: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -287,6 +303,7 @@ preinstall: /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/prei
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/preinstall
+preinstall: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -303,6 +320,7 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/clean
+clean: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -312,7 +330,7 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target SquaresOfSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target SquaresOfSortedArray"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +356,7 @@ SquaresOfSortedArray: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedAr
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target TwoSums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target TwoSums"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,7 +512,7 @@ Ejercicio14: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/CMakeFi
 /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=18,19,20,21,22 "Built target LibroCh1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23,24 "Built target LibroCh1"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,7 +538,7 @@ LibroCh1: /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/Libro
 /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target LongestSubstringWoutRepChar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target LongestSubstringWoutRepChar"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/CMakeFiles/LongestSubstringWoutRepChar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -546,7 +564,7 @@ LongestSubstringWoutRepChar: /Users/isaacherbozo/CLionProjects/LearnC/LongestSub
 /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target LastStoneWeight"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target LastStoneWeight"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/CMakeFiles/LastStoneWeight.dir/all
 
 # Build rule for subdir invocation for target.
@@ -624,7 +642,7 @@ Ejercicio20: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFi
 /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target ProductOfArrayExceptSelf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target ProductOfArrayExceptSelf"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -642,6 +660,32 @@ ProductOfArrayExceptSelf: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArra
 /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/clean
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/clean
+
+#=============================================================================
+# Target rules for target /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir
+
+# All Build rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/all:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/depend
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target FindMinArrowsShot"
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/all
+
+# Build rule for subdir invocation for target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/rule
+
+# Convenience name for target.
+FindMinArrowsShot: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/rule
+.PHONY : FindMinArrowsShot
+
+# clean rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

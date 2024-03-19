@@ -155,6 +155,9 @@
 		},
 		{
 			"path" : "ProductOfArrayExceptSelf/CMakeLists.txt"
+		},
+		{
+			"path" : "FindMinArrowsShot/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

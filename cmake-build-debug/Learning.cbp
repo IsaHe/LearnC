@@ -5,7 +5,7 @@
 		<Option title="Learning"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\SquaresOfSortedArray\;CMake Files\TwoSums\;CMake Files\AddTwoNumbers\;CMake Files\Ejercicio16\;CMake Files\Ejercicio13\;CMake Files\Ejercicio17\;CMake Files\Ejercicio14\;CMake Files\Libro\;CMake Files\LongestSubstringWoutRepChar\;CMake Files\LastStoneWeight\;CMake Files\Ejercicio19\;CMake Files\Ejercicio20\;CMake Files\ProductOfArrayExceptSelf\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SquaresOfSortedArray\;CMake Files\TwoSums\;CMake Files\AddTwoNumbers\;CMake Files\Ejercicio16\;CMake Files\Ejercicio13\;CMake Files\Ejercicio17\;CMake Files\Ejercicio14\;CMake Files\Libro\;CMake Files\LongestSubstringWoutRepChar\;CMake Files\LastStoneWeight\;CMake Files\Ejercicio19\;CMake Files\Ejercicio20\;CMake Files\ProductOfArrayExceptSelf\;CMake Files\FindMinArrowsShot\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug"/>
@@ -531,6 +531,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="FindMinArrowsShot">
+				<Option output="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/FindMinArrowsShot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 FindMinArrowsShot"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FindMinArrowsShot/fast">
+				<Option output="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/FindMinArrowsShot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 FindMinArrowsShot/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/main.c">
 			<Option target="AddTwoNumbers"/>
@@ -558,6 +596,9 @@
 		</Unit>
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/main.c">
 			<Option target="Ejercicio20"/>
+		</Unit>
+		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/main.c">
+			<Option target="FindMinArrowsShot"/>
 		</Unit>
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/main.c">
 			<Option target="LastStoneWeight"/>
@@ -630,6 +671,9 @@
 		</Unit>
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ProductOfArrayExceptSelf\"/>
+		</Unit>
+		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FindMinArrowsShot\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

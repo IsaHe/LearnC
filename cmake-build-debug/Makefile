@@ -285,6 +285,19 @@ ProductOfArrayExceptSelf/fast:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build
 .PHONY : ProductOfArrayExceptSelf/fast
 
+#=============================================================================
+# Target rules for targets named FindMinArrowsShot
+
+# Build rule for target.
+FindMinArrowsShot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FindMinArrowsShot
+.PHONY : FindMinArrowsShot
+
+# fast build rule for target.
+FindMinArrowsShot/fast:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build
+.PHONY : FindMinArrowsShot/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +313,7 @@ help:
 	@echo "... Ejercicio17"
 	@echo "... Ejercicio19"
 	@echo "... Ejercicio20"
+	@echo "... FindMinArrowsShot"
 	@echo "... LastStoneWeight"
 	@echo "... LibroCh1"
 	@echo "... LongestSubstringWoutRepChar"

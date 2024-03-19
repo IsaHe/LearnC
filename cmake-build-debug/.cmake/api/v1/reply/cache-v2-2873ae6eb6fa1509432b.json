@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "14"
+			"value" : "15"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output"
 		},
 		{
 			"name" : "Learning_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf"
+			"value" : "/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot"
 		},
 		{
 			"name" : "ProcessorCount_cmd_sysctl",
