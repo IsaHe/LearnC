@@ -42,3 +42,6 @@
 /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir
 /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/edit_cache.dir
 /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/rebuild_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/edit_cache.dir
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/rebuild_cache.dir

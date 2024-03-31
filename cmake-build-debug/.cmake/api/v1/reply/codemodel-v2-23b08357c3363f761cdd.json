@@ -21,7 +21,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -43,7 +44,7 @@
 					"source" : "SquaresOfSortedArray",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -58,7 +59,7 @@
 					"source" : "TwoSums",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -223,7 +224,7 @@
 					"source" : "ProductOfArrayExceptSelf",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -239,6 +240,21 @@
 					"targetIndexes" : 
 					[
 						7
+					]
+				},
+				{
+					"build" : "/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output",
+					"jsonFile" : "directory-MergeInBetweenLists-Debug-3db9e2017672e18f52e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MergeInBetweenLists",
+					"targetIndexes" : 
+					[
+						11
 					]
 				}
 			],
@@ -262,7 +278,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"name" : "Learning",
 					"targetIndexes" : 
@@ -280,7 +297,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -361,6 +379,13 @@
 					"id" : "LongestSubstringWoutRepChar::@f765cf832673561050ec",
 					"jsonFile" : "target-LongestSubstringWoutRepChar-Debug-82ae5975f6444d60fc05.json",
 					"name" : "LongestSubstringWoutRepChar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "MergeInBetweenLists::@6ffedd9364ac68c6de05",
+					"jsonFile" : "target-MergeInBetweenLists-Debug-33d5c1ee64103cef2253.json",
+					"name" : "MergeInBetweenLists",
 					"projectIndex" : 0
 				},
 				{

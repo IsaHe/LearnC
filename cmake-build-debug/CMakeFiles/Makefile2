@@ -225,6 +225,21 @@ CMAKE_BINARY_DIR = /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/clean
 
 #=============================================================================
+# Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output
+
+# Recursive "all" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/all: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/all
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/all
+
+# Recursive "preinstall" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/preinstall:
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/preinstall
+
+# Recursive "clean" directory target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/clean: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/clean
+
+#=============================================================================
 # Directory level rules for directory /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output
 
 # Recursive "all" directory target.
@@ -287,6 +302,7 @@ all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/all
 all: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/all
+all: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -304,6 +320,7 @@ preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/preinsta
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/preinstall
 preinstall: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/preinstall
+preinstall: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -321,6 +338,7 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/clean
 clean: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/clean
+clean: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -330,7 +348,7 @@ clean: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/clean
 /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target SquaresOfSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target SquaresOfSortedArray"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/CMakeFiles/SquaresOfSortedArray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +374,7 @@ SquaresOfSortedArray: /Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedAr
 /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target TwoSums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target TwoSums"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/CMakeFiles/TwoSums.dir/all
 
 # Build rule for subdir invocation for target.
@@ -642,7 +660,7 @@ Ejercicio20: /Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/CMakeFi
 /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/all:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/depend
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target ProductOfArrayExceptSelf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target ProductOfArrayExceptSelf"
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/CMakeFiles/ProductOfArrayExceptSelf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -686,6 +704,32 @@ FindMinArrowsShot: /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Ou
 /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean
 .PHONY : /Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/CMakeFiles/FindMinArrowsShot.dir/clean
+
+#=============================================================================
+# Target rules for target /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir
+
+# All Build rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/all:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/depend
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target MergeInBetweenLists"
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/all
+
+# Build rule for subdir invocation for target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/CMakeFiles 0
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/rule
+
+# Convenience name for target.
+MergeInBetweenLists: /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/rule
+.PHONY : MergeInBetweenLists
+
+# clean rule for target.
+/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/clean
+.PHONY : /Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/CMakeFiles/MergeInBetweenLists.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

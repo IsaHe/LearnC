@@ -158,6 +158,9 @@
 		},
 		{
 			"path" : "FindMinArrowsShot/CMakeLists.txt"
+		},
+		{
+			"path" : "MergeInBetweenLists/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -17,3 +17,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio19" "${PROJECT_SOURCE_DIR}/Ejer
 add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio20" "${PROJECT_SOURCE_DIR}/Ejercicio20/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/ProductOfArrayExceptSelf" "${PROJECT_SOURCE_DIR}/ProductOfArrayExceptSelf/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/FindMinArrowsShot" "${PROJECT_SOURCE_DIR}/FindMinArrowsShot/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/MergeInBetweenLists" "${PROJECT_SOURCE_DIR}/MergeInBetweenLists/Output")
