@@ -178,6 +178,30 @@ StringFunctions.c.s:
 	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/StringFunctions.c.s
 .PHONY : StringFunctions.c.s
 
+inOut.o: inOut.c.o
+.PHONY : inOut.o
+
+# target to build an object file
+inOut.c.o:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/inOut.c.o
+.PHONY : inOut.c.o
+
+inOut.i: inOut.c.i
+.PHONY : inOut.i
+
+# target to preprocess a source file
+inOut.c.i:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/inOut.c.i
+.PHONY : inOut.c.i
+
+inOut.s: inOut.c.s
+.PHONY : inOut.s
+
+# target to generate assembly for a file
+inOut.c.s:
+	cd /Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/build.make /Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/inOut.c.s
+.PHONY : inOut.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -241,6 +265,9 @@ help:
 	@echo "... StringFunctions.o"
 	@echo "... StringFunctions.i"
 	@echo "... StringFunctions.s"
+	@echo "... inOut.o"
+	@echo "... inOut.i"
+	@echo "... inOut.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

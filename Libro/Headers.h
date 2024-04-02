@@ -31,8 +31,7 @@ void push(struct stack *pt, int x);
 int peek(struct stack *pt);
 int pop(struct stack *pt);
 struct stack* newStack(int capacity);
-
-
-
+void copy();
+void countInput();
 
 #endif //LEARNING_HEADERS_H

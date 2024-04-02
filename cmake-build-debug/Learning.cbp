@@ -650,6 +650,9 @@
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/Libro/StringFunctions.c">
 			<Option target="LibroCh1"/>
 		</Unit>
+		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/Libro/inOut.c">
+			<Option target="LibroCh1"/>
+		</Unit>
 		<Unit filename="/Users/isaacherbozo/CLionProjects/LearnC/Libro/main.c">
 			<Option target="LibroCh1"/>
 		</Unit>

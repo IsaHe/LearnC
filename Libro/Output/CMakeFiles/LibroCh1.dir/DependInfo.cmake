@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Pointers.c" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/Pointers.c.o" "gcc" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/Pointers.c.o.d"
   "/Users/isaacherbozo/CLionProjects/LearnC/Libro/StringFunctions.c" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/StringFunctions.c.o" "gcc" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/StringFunctions.c.o.d"
+  "/Users/isaacherbozo/CLionProjects/LearnC/Libro/inOut.c" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/inOut.c.o" "gcc" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/inOut.c.o.d"
   "/Users/isaacherbozo/CLionProjects/LearnC/Libro/main.c" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/main.c.o" "gcc" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/main.c.o.d"
   "/Users/isaacherbozo/CLionProjects/LearnC/Libro/stack.c" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/stack.c.o" "gcc" "/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/CMakeFiles/LibroCh1.dir/stack.c.o.d"
   )

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LibroCh1.dir/Pointers.c.o.d"
   "CMakeFiles/LibroCh1.dir/StringFunctions.c.o"
   "CMakeFiles/LibroCh1.dir/StringFunctions.c.o.d"
+  "CMakeFiles/LibroCh1.dir/inOut.c.o"
+  "CMakeFiles/LibroCh1.dir/inOut.c.o.d"
   "CMakeFiles/LibroCh1.dir/main.c.o"
   "CMakeFiles/LibroCh1.dir/main.c.o.d"
   "CMakeFiles/LibroCh1.dir/stack.c.o"

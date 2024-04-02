@@ -8,4 +8,5 @@ add_executable(LibroCh1 main.c
         Pointers.c
         StringFunctions.c
         stack.c
+        inOut.c
 )
