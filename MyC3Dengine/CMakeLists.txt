@@ -3,4 +3,6 @@ project(Learning C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(MyC3Dengine window.c)
+add_executable(MyC3Dengine window.c
+        point.c
+        point.h)

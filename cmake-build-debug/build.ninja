@@ -1034,6 +1034,12 @@ build C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Deng
   OBJECT_DIR = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir
   OBJECT_FILE_DIR = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir
 
+build C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Dengine.dir/point.c.obj: C_COMPILER__MyC3Dengine_unscanned_Debug C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/point.c || cmake_object_order_depends_target_MyC3Dengine
+  DEP_FILE = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir\point.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir
+  OBJECT_FILE_DIR = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MyC3Dengine
@@ -1042,7 +1048,7 @@ build C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Deng
 #############################################
 # Link the executable C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\MyC3Dengine.exe
 
-build C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/MyC3Dengine.exe: C_EXECUTABLE_LINKER__MyC3Dengine_Debug C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Dengine.dir/window.c.obj
+build C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/MyC3Dengine.exe: C_EXECUTABLE_LINKER__MyC3Dengine_Debug C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Dengine.dir/window.c.obj C$:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/CMakeFiles/MyC3Dengine.dir/point.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = C:\Users\PC\CLionProjects\Learning\MyC3Dengine\Output\CMakeFiles\MyC3Dengine.dir

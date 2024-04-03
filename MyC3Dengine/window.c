@@ -1,13 +1,15 @@
 
 
 #include <windows.h>
+#include "point.h"
 
 #define WIDTH 800
 #define HEIGHT 600
 
-// Cordenadas de inicio y fin de la línea
-int startX = 50, startY = 50;
-int endX = 200, endY = 200;
+
+Point3D start = { 400, 300, 100 };
+Point3D end = { 200, 200, 100 };
+
 
 // Procedimiento de ventana personalizado
 LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -24,18 +26,19 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
         FillRect(hdc, &rect, brush);
         DeleteObject(brush);
 
+        // Convertir los puntos 3D a 2D
+        Point start2D = point_project(start, 100);
+        Point end2D = point_project(end, 100);
+
         // Establecer el punto de inicio
-        MoveToEx(hdc, startX, startY, NULL);
+        MoveToEx(hdc, start2D.x, start2D.y, NULL);
         // Dibujar la línea hasta el punto final
-        LineTo(hdc, endX, endY);
+        LineTo(hdc, end2D.x, end2D.y);
 
         EndPaint(hwnd, &ps);
 
-        if (endX <= WIDTH)
-        {
-            startX += 10;
-            endX += 10;
-        }
+        point_rotate(&end, 0.1);
+        point_rotate(&start, 0.1);
 
         Sleep(100);
 

@@ -1,0 +1,451 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/SquaresOfSortedArray/Output",
+					"jsonFile" : "directory-SquaresOfSortedArray-Debug-0f84f0a27efd4a17f1d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SquaresOfSortedArray",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/TwoSums/Output",
+					"jsonFile" : "directory-TwoSums-Debug-199c316bf887f7204b48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TwoSums",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/AddTwoNumbers/Output",
+					"jsonFile" : "directory-AddTwoNumbers-Debug-0a7656d5bed9499cd4dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AddTwoNumbers",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio16/Output",
+					"jsonFile" : "directory-Ejercicio16-Debug-ce2bc136cc07a54fa48d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio16",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio13/Output",
+					"jsonFile" : "directory-Ejercicio13-Debug-9956b8c286f893571b12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio13",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio17/Output",
+					"jsonFile" : "directory-Ejercicio17-Debug-c8b855ae8d096119e169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio17",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio14/Output",
+					"jsonFile" : "directory-Ejercicio14-Debug-781831513c8ee9ec4b4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio14",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Libro/Output",
+					"jsonFile" : "directory-Libro-Debug-8edd17e06651578ef480.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Libro",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/LongestSubstringWoutRepChar/Output",
+					"jsonFile" : "directory-LongestSubstringWoutRepChar-Debug-2e4300fbaaf8be05979a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LongestSubstringWoutRepChar",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/LastStoneWeight/Output",
+					"jsonFile" : "directory-LastStoneWeight-Debug-b576f942a9af7b4c7dd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LastStoneWeight",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio19/Output",
+					"jsonFile" : "directory-Ejercicio19-Debug-14452af40f37ced253e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio19",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/Ejercicio20/Output",
+					"jsonFile" : "directory-Ejercicio20-Debug-e9e62464f8c0c7dfe93f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Ejercicio20",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/ProductOfArrayExceptSelf/Output",
+					"jsonFile" : "directory-ProductOfArrayExceptSelf-Debug-5602d7e99bafcba27b97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ProductOfArrayExceptSelf",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/FindMinArrowsShot/Output",
+					"jsonFile" : "directory-FindMinArrowsShot-Debug-91a05cb40084a695bf74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "FindMinArrowsShot",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/MergeInBetweenLists/Output",
+					"jsonFile" : "directory-MergeInBetweenLists-Debug-4ca29f77e03e807b7735.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MergeInBetweenLists",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "C:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output",
+					"jsonFile" : "directory-MyC3Dengine-Debug-cf8a27c62f54fae65366.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MyC3Dengine",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "Learning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "AddTwoNumbers::@bfd1e14f55d6829e3b09",
+					"jsonFile" : "target-AddTwoNumbers-Debug-2606a62a57065edd96a0.json",
+					"name" : "AddTwoNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Ejercicio13::@c48a31d9a4b4ebec8bb6",
+					"jsonFile" : "target-Ejercicio13-Debug-4235d92543aa41a817bc.json",
+					"name" : "Ejercicio13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Ejercicio14::@09dd6001dd4b26909b5a",
+					"jsonFile" : "target-Ejercicio14-Debug-910f69569ec091706482.json",
+					"name" : "Ejercicio14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Ejercicio16::@4a0c82f2eacd589ed1fb",
+					"jsonFile" : "target-Ejercicio16-Debug-b9882555cc6d4a970efc.json",
+					"name" : "Ejercicio16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Ejercicio17::@01d7d368450ac4656770",
+					"jsonFile" : "target-Ejercicio17-Debug-937db5654406ec2e23be.json",
+					"name" : "Ejercicio17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Ejercicio19::@67df3c1cb58585309e3a",
+					"jsonFile" : "target-Ejercicio19-Debug-73a2e164a54531ee028b.json",
+					"name" : "Ejercicio19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Ejercicio20::@9b365980a1d372502606",
+					"jsonFile" : "target-Ejercicio20-Debug-a556626c7ac8089fe8c3.json",
+					"name" : "Ejercicio20",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "FindMinArrowsShot::@81fa587007032ced59b0",
+					"jsonFile" : "target-FindMinArrowsShot-Debug-9e9e09791144740e3d6b.json",
+					"name" : "FindMinArrowsShot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "LastStoneWeight::@f27ca2463a11e6240007",
+					"jsonFile" : "target-LastStoneWeight-Debug-ec83ff5fcaa0d6d67829.json",
+					"name" : "LastStoneWeight",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "LibroCh1::@aedcae882931f0b48a09",
+					"jsonFile" : "target-LibroCh1-Debug-1bd8e2a8de0814b6cc65.json",
+					"name" : "LibroCh1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "LongestSubstringWoutRepChar::@a57476b6cd0188cdb9cb",
+					"jsonFile" : "target-LongestSubstringWoutRepChar-Debug-42a2b9ff16a5cccc2a9a.json",
+					"name" : "LongestSubstringWoutRepChar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "MergeInBetweenLists::@9ec934633b8365f2d6d3",
+					"jsonFile" : "target-MergeInBetweenLists-Debug-06a7525e5ad89fbb4530.json",
+					"name" : "MergeInBetweenLists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "MyC3Dengine::@dc655c8ba75f810aef78",
+					"jsonFile" : "target-MyC3Dengine-Debug-6e07b0476b28b1e6f0f5.json",
+					"name" : "MyC3Dengine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ProductOfArrayExceptSelf::@337931cd843d5a1fe2ba",
+					"jsonFile" : "target-ProductOfArrayExceptSelf-Debug-313e6201a937c8356477.json",
+					"name" : "ProductOfArrayExceptSelf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SquaresOfSortedArray::@b55265733e8bf1e9fb36",
+					"jsonFile" : "target-SquaresOfSortedArray-Debug-02e7566868b69da5bd98.json",
+					"name" : "SquaresOfSortedArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TwoSums::@fb4245b36ce11eccd772",
+					"jsonFile" : "target-TwoSums-Debug-39446e440076fd8730a1.json",
+					"name" : "TwoSums",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PC/CLionProjects/Learning/cmake-build-debug",
+		"source" : "C:/Users/PC/CLionProjects/Learning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
