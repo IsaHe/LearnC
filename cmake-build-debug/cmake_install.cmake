@@ -1,8 +1,8 @@
-# Install script for directory: /Users/isaacherbozo/CLionProjects/LearnC
+# Install script for directory: C:/Users/PC/CLionProjects/Learning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Learning")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,82 +34,87 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/SquaresOfSortedArray/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/SquaresOfSortedArray/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/TwoSums/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/TwoSums/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/AddTwoNumbers/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/AddTwoNumbers/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio16/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio16/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio13/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio13/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio17/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio17/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio14/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio14/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Libro/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Libro/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/LongestSubstringWoutRepChar/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/LongestSubstringWoutRepChar/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/LastStoneWeight/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/LastStoneWeight/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio19/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio19/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/Ejercicio20/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/Ejercicio20/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/ProductOfArrayExceptSelf/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/ProductOfArrayExceptSelf/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/FindMinArrowsShot/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/FindMinArrowsShot/Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/isaacherbozo/CLionProjects/LearnC/MergeInBetweenLists/Output/cmake_install.cmake")
+  include("C:/Users/PC/CLionProjects/Learning/MergeInBetweenLists/Output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/PC/CLionProjects/Learning/MyC3Dengine/Output/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -120,5 +125,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/isaacherbozo/CLionProjects/LearnC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/PC/CLionProjects/Learning/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

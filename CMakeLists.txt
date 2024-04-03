@@ -18,3 +18,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Ejercicio20" "${PROJECT_SOURCE_DIR}/Ejer
 add_subdirectory("${PROJECT_SOURCE_DIR}/ProductOfArrayExceptSelf" "${PROJECT_SOURCE_DIR}/ProductOfArrayExceptSelf/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/FindMinArrowsShot" "${PROJECT_SOURCE_DIR}/FindMinArrowsShot/Output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/MergeInBetweenLists" "${PROJECT_SOURCE_DIR}/MergeInBetweenLists/Output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/MyC3Dengine" "${PROJECT_SOURCE_DIR}/MyC3Dengine/Output")

@@ -1,0 +1,24 @@
+NORMAL MODE
+    i -> Enter insert mode before caret
+    mayus i -> Enter insert mode at the beginning of the line
+    a -> Enter insert mode after caret
+    mayus a -> Enter insert mode at the end of the line
+    o -> Enter insert mode in a new line below caret
+    mayus o -> enter insert mode in a new line above the caret
+
+    h -> move caret izq
+    l -> move caret der
+    k -> move caret up
+    j -> move caret down
+    YOU CAN COMBINE THIS WITH NUMBERS TO MOVE X POSITIONS IN Y DIRECTION (THIS WORKS WITH ALL COMMANDS)
+
+    ctrl r -> redo
+    u -> undo
+    dd -> delete a full line
+    yy -> copy full line
+    cc -> change the line
+
+VISUAL MODE
+    d -> delete
+    y -> copy
+    p -> paste

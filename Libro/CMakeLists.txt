@@ -9,4 +9,5 @@ add_executable(LibroCh1 main.c
         StringFunctions.c
         stack.c
         inOut.c
+        bitwiseOp.c
 )

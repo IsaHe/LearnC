@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "C:/Users/PC/CLionProjects/Learning/ProductOfArrayExceptSelf/Output",
+		"source" : "ProductOfArrayExceptSelf"
+	}
+}

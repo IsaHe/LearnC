@@ -1,5 +1,3 @@
-#include <stdint.h>
-
 #include <stdint.h> // Incluye la biblioteca stdint.h que proporciona un conjunto de tipos de enteros de ancho fijo.
 
 int lengthOfLongestSubstring(char* s) { // Define la función lengthOfLongestSubstring que toma un puntero a una cadena de caracteres como argumento.
