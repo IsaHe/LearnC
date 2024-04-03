@@ -36,15 +36,21 @@ Point point_project(Point3D p, int d)
     return projected;
 }
 
-void point_rotate(Point3D* p, double angle)
+void point_rotate(Point3D* p, double angle, Point center)
 {
     double s = sin(angle);
     double c = cos(angle);
 
-    int x = p->x;
-    int y = p->y;
+    p->x -= center.x;
+    p->y -= center.y;
 
-    p->x = x * c - y * s;
-    p->y = x * s + y * c;
+    int x = p->x * c - p->y * s;
+    int y = p->y * s + p->x * c;
+
+    p->x = x + center.x;
+    p->y = y + center.y;
+
+    p->angle += angle;
+    printf("Angle: %f\n", p->angle);
 }
 

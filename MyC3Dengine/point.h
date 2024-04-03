@@ -19,6 +19,7 @@ typedef struct
     int x;
     int y;
     int z;
+    double angle;
 } Point3D;
 
 Point point_create(int x, int y);
@@ -26,6 +27,6 @@ void point_print(Point p);
 Point3D point3D_create(int x, int y, int z);
 void point3D_print(Point3D p);
 Point point_project(Point3D p, int d);
-void point_rotate(Point3D* p, double angle);
+void point_rotate(Point3D* p, double angle, Point center);
 
 #endif //LEARNING_POINT_H

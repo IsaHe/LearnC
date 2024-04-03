@@ -3,12 +3,14 @@
 #include <windows.h>
 #include "point.h"
 
-#define WIDTH 800
-#define HEIGHT 600
+#define WIDTH 1200
+#define HEIGHT 1000
 
 
-Point3D start = { 400, 300, 100 };
-Point3D end = { 200, 200, 100 };
+Point3D start = { 650, 550, 200, 0};
+Point3D end = { 600, 500, 200, 0};
+
+Point center = { WIDTH / 2, HEIGHT / 2 };
 
 
 // Procedimiento de ventana personalizado
@@ -37,8 +39,8 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
 
         EndPaint(hwnd, &ps);
 
-        point_rotate(&end, 0.1);
-        point_rotate(&start, 0.1);
+        point_rotate(&end, 0.1, center);
+        point_rotate(&start, 0.1, center);
 
         Sleep(100);
 
