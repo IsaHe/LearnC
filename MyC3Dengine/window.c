@@ -27,6 +27,9 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
         HBRUSH brush = CreateSolidBrush(RGB(255, 255, 255));
         FillRect(hdc, &rect, brush);
         DeleteObject(brush);
+        
+        point_rotate(&end, -0.1, center);
+        point_rotate(&start, -0.1, center);
 
         // Convertir los puntos 3D a 2D
         Point start2D = point_project(start, 100);
@@ -39,8 +42,6 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
 
         EndPaint(hwnd, &ps);
 
-        point_rotate(&end, 0.1, center);
-        point_rotate(&start, 0.1, center);
 
         Sleep(100);
 
